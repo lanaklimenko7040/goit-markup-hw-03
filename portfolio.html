@@ -12,9 +12,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body>
     <header class="header">
+      <div class="container header-container">
       <nav class="header-nav">
         <a class="logo-header list" href="./index.html"lang="en"><span class="logo-web">Web</span>Studio</span></a>
         <ul class="header-list">
@@ -30,8 +32,10 @@
         <li class="header-item">
           <a href="tel:+380961111111" class="header-tel list">+38 096 111 11 11 </a></li>
       </ul>
+    </div>
     </header>
-    <section class="portfolio">
+    <section class="portfolio section">
+      <div class="container portfolio-container">
       <ul class="button-list list">
         <li class="button-item"><button class="button-link"type="button">Все</button></li>
         <li class="button-item"><button class="button-link"type="button">Веб-сайты</button></li>
@@ -47,9 +51,11 @@
             width="370"
             height="294"
           />
+          <div class="portfolio-rectangle">
           <h3 class="portfolio-title">Технокряк</h3>
           <p class="portfolio-text">Веб-сайт</p>
-        </li>
+        </div>
+      </li>
         <li class="portfolio-item">
           <img
             src="./images 2/img 2.jpg"
@@ -131,8 +137,10 @@
           <p class="portfolio-text">Приложение</p>
         </li>
       </ul>
+    </div>
     </section>
     <footer class="contact">
+      <div class="container contact-container">
       <a class="logo-footer list" href ="/index.html" lang="en"><span class="logo-web">Web</span><span>Studio</span></a>
       <address class="contact-adress ">
         <ul class="contact-list list ">
@@ -148,6 +156,7 @@
           <li><a  class="contact-tel list"href="tel:+380991111111">+38 099 111 11 11</a></li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
