@@ -204,6 +204,8 @@ body{
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
+    margin-bottom: 50px;
+    text-align: center;
 }
 
  .team-name {
@@ -212,12 +214,16 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
+    margin-top: 30px;
     
  }
 
  .team-picture {
     list-style: none;
+    margin-right: 30px;
+    text-align: center;
     }
+ 
 
 .team-text {
     font-weight: 400;
@@ -225,6 +231,7 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+    margin-top: 10px;
 }
 
 /*---------------FOOTER--------*/
@@ -236,12 +243,20 @@ body{
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 .contact {
-    background-color: #2F303A;;
+    background-color: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
+
+.contact-list{
+    
+}
+
 .contact-adress {
-    font-style: normal
+    font-style: normal;
 }
 .contact-map {
     font-style: normal;
@@ -249,7 +264,9 @@ body{
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;}
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
 
 .contact-map:hover,
 .contact-map:focus{
@@ -262,6 +279,7 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 9px;
 }
 .contact-email:hover,
 .contact-email:focus {
