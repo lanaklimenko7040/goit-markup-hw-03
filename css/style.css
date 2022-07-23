@@ -4,6 +4,15 @@
    --hover-color:  #2196F3;
 }
 
+p, h1, h2, h3, h4 ,h5, h6{
+    margin: 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding-left: 0;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -14,10 +23,28 @@ body{
 
 .list{
     text-decoration: none;
-
+    
 }
 
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    outline: 2px solid red;
+}
+ .section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+ }
 /*-------------HEADER------*/
+
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
 
 .logo-header
 {
@@ -84,8 +111,14 @@ body{
      /*--------HERO-----------*/
 .hero {
     background:#2F303A;
-}
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    height: 600px;
     
+   
+    
+}   
 .hero-title {
     font-weight: 900;
     font-size: 44px;
@@ -94,6 +127,10 @@ body{
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    max-width: 696px;
 }
  .hero-btn {
     font-family:inherit;
@@ -106,7 +143,10 @@ body{
     letter-spacing: 0.06em;
     cursor: pointer;
     color: #FFFFFF;
-    background-color: #2196F3;} 
+    background-color: #2196F3;
+    margin-left: auto;
+    margin-right: auto;
+} 
     
 .hero-btn:hover,
 .hero-btn:focus {
@@ -117,7 +157,11 @@ body{
 
         /*--------DESCRIPTION-----------*/
 
-
+ 
+    
+ .description-list{
+    margin-right: 30px;
+ }
 
 .description-title {
     font-weight: 700;
@@ -126,6 +170,7 @@ body{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--first-text-color);
+    margin-bottom: 10px;
 }
 
 .description-text {
@@ -134,9 +179,12 @@ body{
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+    height: 101px;
+   
 }
 
 /*---------------ABOUT---------*/
+
 
 .about-title{
     font-weight: 700;
@@ -145,6 +193,7 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
+    margin-bottom: 50px;
 }
 
 /*---------------TEAM---------*/
