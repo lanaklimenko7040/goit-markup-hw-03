@@ -17,8 +17,6 @@ ul, ol {
     padding-left: 0;
 }
 
-
-
 .list{
     list-style: none;
 }
@@ -34,9 +32,8 @@ ul, ol {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    
 }
- .section{
+.section{
     padding-top: 94px;
     padding-bottom: 94px;
 }
@@ -51,6 +48,9 @@ ul, ol {
         max-width: 100%;
         height: auto;
     }
+    
+
+ 
 /*-------------HEADER------*/
 
 .header{
@@ -155,6 +155,7 @@ margin-right: 50px;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
+    margin-top: auto;
 }
     .hero-title {
     font-family: Roboto ;
