@@ -257,7 +257,7 @@ margin-right: 50px;
 
 /*---------------TEAM---------*/
 
-.team section{
+.team {
     background-color: #F5F4FA;
 }
 
@@ -329,6 +329,7 @@ margin-right: 50px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     margin-bottom: 20px;
+    display: inline-block;
     
 }
 .contact-item:not(:last-child){
